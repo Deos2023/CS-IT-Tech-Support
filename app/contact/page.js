@@ -324,8 +324,10 @@ export default function Contact() {
             viewport={{ once: true }}
             className="rounded-xl overflow-hidden shadow-xl"
           >
+
+          
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.7154270370554!2d88.4095383153436!3d22.589485338342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b020703c0d%3A0xece6f8e5f5e5f5e5!2s379%2C%20Dakhindari%20Rd%2C%20Sreebhumi%2C%20Laketown%2C%20Kolkata%2C%20West%20Bengal%20700048!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.180878334444!2d88.4004649!3d22.5995042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02776abdcbbca5%3A0x215ffbbb7422ca1c!2sCS%20IT%20TECH%20SUPPORT!5e1!3m2!1sen!2sin!4v1754657957511!5m2!1sen!2sin"
               width="100%" 
               height="450" 
               style={{ border: 0 }}

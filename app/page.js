@@ -1,11 +1,8 @@
-
 "use client"
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Image from 'next/image';
 import { useState } from 'react';
-
-// import Footer from './components/Footer';
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -42,7 +39,7 @@ export default function Home() {
     },
     {
       title: "CCTV Solutions",
-      description: "Installation, maintenance and repair of CCTV systems for homes and businesses.",
+      description: "Installation, maintenance and repair of CCTV systems including NVR and WiFi cameras.",
       image: "/img/img (2).jpeg"
     },
     {
@@ -56,8 +53,8 @@ export default function Home() {
       image: "/img/img (4).jpeg"
     },
     {
-      title: "Drone Solutions",
-      description: "Sales and technical support for drone equipment.",
+      title: "Networking Solutions",
+      description: "Biometric systems, networking equipment and electronics accessories.",
       image: "/img/img (5).jpeg"
     },
     {
@@ -78,11 +75,9 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       <Head>
         <title>CS IT Tech Support | Premium Tech Solutions in Kolkata</title>
-        <meta name="description" content="Professional laptop, desktop, CCTV, printer and mobile repair services in Kolkata. Sales and services for all your tech needs." />
+        <meta name="description" content="AN ISO 9001-2015 CERTIFIED COMPANY. Professional laptop, desktop, CCTV, printer and mobile repair services in Kolkata. Sales and services for all your tech needs." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-900 to-indigo-800 text-white py-20 overflow-hidden">
@@ -93,12 +88,18 @@ export default function Home() {
           className="container mx-auto px-4 flex flex-col md:flex-row items-center"
         >
           <div className="md:w-1/2 mb-10 md:mb-0">
+            <div className="flex items-center mb-4">
+              <div className="bg-white text-blue-900 font-bold px-3 py-1 rounded-md text-sm mr-3">
+                ISO 9001:2015 CERTIFIED
+              </div>
+              <span className="text-blue-200">Your Trust is Our Strength</span>
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
               Premium Tech Support <br />
               <span className="text-blue-300">For All Your Devices</span>
             </h1>
             <p className="text-xl mb-8 text-blue-100">
-              Expert repair, maintenance and sales of laptops, desktops, CCTV, printers and mobile devices in Kolkata.
+              WE SALE AND REPAIR ALL KIND OF COMPUTER, LAPTOP, CCTV, NVR, WIFI CAMERA, BIOMETRIC, NETWORKING, AND ELECTRONICS ACCESSORIES
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a 
@@ -171,8 +172,11 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About CS IT Tech Support</h2>
             <div className="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We are a premier technology solutions provider based in Kolkata, offering comprehensive sales and services for all your tech needs. With years of experience, we deliver reliable and affordable solutions.
+              We are a premier ISO 9001:2015 certified technology solutions provider based in Kolkata, offering comprehensive sales and services for all your tech needs. With years of experience, we deliver reliable and affordable solutions.
             </p>
+            <div className="mt-6 text-blue-600 font-medium text-xl">
+              "Your Trust is Our Strength"
+            </div>
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -202,25 +206,25 @@ export default function Home() {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-green-500 mt-1 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-5 h-5 text-green-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">Same-day service for most repairs</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-green-500 mt-1 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-5 h-5 text-green-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">Genuine parts and accessories</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-green-500 mt-1 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-5 h-5 text-green-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">Competitive pricing with warranty</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-green-500 mt-1 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="w-5 h-5 text-green-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span className="text-gray-700">On-site and remote support options</span>
@@ -309,7 +313,7 @@ export default function Home() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <div className="bg-blue-500 rounded-full p-2 ">
+                  <div className="bg-blue-500 rounded-full p-2">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                     </svg>
@@ -320,7 +324,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-blue-500 rounded-full p-2 ">
+                  <div className="bg-blue-500 rounded-full p-2">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
@@ -331,7 +335,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                 
+                  <div className="bg-blue-500 rounded-full p-2">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                  </div>
                   <div>
                     <h4 className="font-bold text-lg">Genuine Products</h4>
                     <p className="text-blue-100">We sell only authentic products with manufacturer warranty.</p>
@@ -347,7 +355,6 @@ export default function Home() {
               className="relative"
             >
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-400 rounded-full opacity-20"></div>
-              {/* <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-indigo-400 rounded-full opacity-20"></div> */}
               <div className="relative bg-white rounded-xl shadow-2xl overflow-hidden">
                 <Image 
                   src="/img/img (12).jpeg" 
@@ -379,7 +386,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Comprehensive Services</h2>
             <div className="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We offer a wide range of services to meet all your technology needs under one roof.
+              WE SALE AND REPAIR ALL KIND OF COMPUTER, LAPTOP, CCTV, NVR, WIFI CAMERA, BIOMETRIC, NETWORKING, AND ELECTRONICS ACCESSORIES
             </p>
           </motion.div>
 
@@ -480,7 +487,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Our Differentiators</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-lg ">
+                  <div className="bg-blue-100 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                     </svg>
@@ -491,7 +498,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-lg ">
+                  <div className="bg-blue-100 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
@@ -502,7 +509,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-lg ">
+                  <div className="bg-blue-100 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
                     </svg>
@@ -574,8 +581,8 @@ export default function Home() {
                 className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 hover:bg-opacity-20 transition duration-300"
               >
                 <div className="text-blue-300 mb-6">{item.icon}</div>
-                <h3 className="text-xl text-neutral-600 font-bold mb-3">{item.title}</h3>
-                <p className="text-neutral-600">{item.description}</p>
+                <h3 className="text-xl text-blue-800 font-bold mb-3">{item.title}</h3>
+                <p className="text-blue-700">{item.description}</p>
               </motion.div>
             ))}
           </div>
@@ -610,7 +617,7 @@ export default function Home() {
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-lg ">
+                  <div className="bg-blue-100 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
@@ -619,10 +626,11 @@ export default function Home() {
                     <h4 className="font-bold text-gray-800 mb-1">Call Us</h4>
                     <a href="tel:9800810334" className="text-gray-600 hover:text-blue-600 transition duration-300">9800810334</a>
                     <a href="tel:8017176329" className="block text-gray-600 hover:text-blue-600 transition duration-300">8017176329</a>
+                    <a href="tel:7872400665" className="block text-gray-600 hover:text-blue-600 transition duration-300">7872400665</a>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-lg ">
+                  <div className="bg-blue-100 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
@@ -634,7 +642,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-lg ">
+                  <div className="bg-blue-100 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -773,8 +781,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-
-      
     </div>
   );
 }
